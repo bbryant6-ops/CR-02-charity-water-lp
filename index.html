@@ -1,47 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>charity: water — Small Gifts. Big Impact.</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#home" class="brand-link">
+        <img src="img/cw_logo.png" alt="charity: water logo" class="brand-logo" />
+        <span class="brand-name">charity: water</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#take-action">Take Action</a>
+        <a href="#about">About Us</a>
+        <a href="#why-water">Why Water?</a>
+      </nav>
+      <a href="#connect" class="button button-outline">Connect</a>
+    </div>
+  </header>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
-
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Small Gifts. Big Impact.</p>
+          <h1>Bring safe, clean water to communities in need.</h1>
+          <p>
+            Join charity: water in making sure every person can drink, cook, and live with
+            clean water. Every gift helps a community move from scarcity to hope.
+          </p>
+          <div class="hero-actions">
+            <a href="#donate" class="button button-primary">Donate Today</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <strong>100%</strong>
+              <span>funds water projects</span>
+            </div>
+            <div>
+              <strong>18M+</strong>
+              <span>people served</span>
+            </div>
+            <div>
+              <strong>29</strong>
+              <span>countries</span>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
+    <section id="why-water" class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Why Water?</span>
+          <h2>Water changes everything.</h2>
+          <p>
+            Clean water unlocks health, education, and opportunity. When a community gains
+            access, women reclaim hours, children return to school, and entire economies begin to grow.
+          </p>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card">
+            <h3>771M</h3>
+            <p>people live without clean water — that's 1 in 10 worldwide.</p>
+          </article>
+          <article class="stat-card">
+            <h3>1 hr</h3>
+            <p>the average daily walk women and children make to collect water.</p>
+          </article>
+          <article class="stat-card">
+            <h3>43%</h3>
+            <p>of water-related deaths are children under five years old.</p>
+          </article>
+        </div>
+      </div>
     </section>
+
+    <section id="about" class="section section-light">
+      <div class="container about-inner">
+        <div class="about-image">
+          <img
+            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=80"
+            alt="A community celebrating around a new clean water well"
+          />
+          <div class="badge">
+            <strong>100%</strong>
+            <span>FUNDS THE FIELD</span>
+          </div>
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow">About Us</span>
+          <h2>We bring clean water to people in need.</h2>
+          <p>
+            charity: water is a non-profit organization on a mission to bring clean and safe water
+            to every person on the planet. Every penny of public donations goes directly to fund
+            sustainable water projects.
+          </p>
+          <ul class="feature-list">
+            <li>100% of donations fund clean water projects</li>
+            <li>Proof your gift is at work — GPS data + photos</li>
+            <li>Local partners on the ground in 29 countries</li>
+          </ul>
+          <a href="#donate" class="button button-primary">Join the mission</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="take-action" class="section section-dark">
+      <div class="container">
+        <div class="action-copy">
+          <span class="eyebrow">Take Action</span>
+          <h2 id="donate">Choose your impact.</h2>
+          <p>
+            Pick an amount — or write in your own. Every gift, big or small, brings someone closer to clean water.
+          </p>
+        </div>
+        <div class="tiers">
+          <button class="tier-card">
+            <strong>$20</strong>
+            <span>Clean water for 1 person</span>
+            <span class="tier-link">Donate →</span>
+          </button>
+          <button class="tier-card tier-card-featured">
+            <strong>$60</strong>
+            <span>A family of 3, served for life</span>
+            <span class="tier-link tier-link-light">Donate →</span>
+          </button>
+          <button class="tier-card">
+            <strong>$200</strong>
+            <span>An entire school community</span>
+            <span class="tier-link">Donate →</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="connect" class="section section-light">
+      <div class="container connect-inner">
+        <span class="eyebrow">Stay Connected</span>
+        <h2>Get stories from the field.</h2>
+        <p>
+          Monthly updates on the people, places, and projects your generosity makes possible.
+        </p>
+        <form class="subscribe-form" action="#" method="post">
+          <input type="email" required placeholder="you@email.com" />
+          <button type="submit" class="button button-primary">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="brand-link footer-brand">
+        <img src="img/cw_logo.png" alt="charity: water logo" class="brand-logo" />
+        <span class="brand-name">charity: water</span>
+      </a>
+      <nav class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#take-action">Take Action</a>
+        <a href="#about">About Us</a>
+        <a href="#why-water">Why Water?</a>
+        <a href="#connect">Connect</a>
+      </nav>
+      <p>© 2026 charity: water inspired landing — fan project.</p>
+    </div>
+  </footer>
 </body>
 </html>
